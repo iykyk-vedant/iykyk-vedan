@@ -1,0 +1,26 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile background art">
+  <defs>
+    <radialGradient id="bgA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 150) rotate(13) scale(700 360)">
+      <stop stop-color="#1F6FEB" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bgB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1220 730) rotate(-11) scale(720 420)">
+      <stop stop-color="#7C3AED" stop-opacity="0.16" />
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0D1117" />
+  <rect width="1600" height="900" fill="url(#bgA)" />
+  <rect width="1600" height="900" fill="url(#bgB)" />
+  <g stroke="#30363D" stroke-width="1" opacity="0.45">
+    <path d="M0 150H1600" />
+    <path d="M0 330H1600" />
+    <path d="M0 510H1600" />
+    <path d="M0 690H1600" />
+    <path d="M220 0V900" />
+    <path d="M520 0V900" />
+    <path d="M820 0V900" />
+    <path d="M1120 0V900" />
+    <path d="M1420 0V900" />
+  </g>
+</svg>

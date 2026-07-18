@@ -1,0 +1,12 @@
+<svg width="1600" height="140" viewBox="0 0 1600 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wave divider">
+  <defs>
+    <linearGradient id="waveGrad" x1="0" y1="22" x2="1600" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F6FEB" stop-opacity="0.55" />
+      <stop offset="0.5" stop-color="#7C3AED" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.55" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="140" fill="#0D1117" />
+  <path d="M0 72C130 96 271 113 404 106C544 98 661 66 798 56C951 45 1050 71 1185 89C1318 107 1462 112 1600 87V140H0V72Z" fill="url(#waveGrad)" />
+  <path d="M0 58C174 87 324 88 463 76C610 64 684 36 823 32C964 28 1053 56 1196 72C1318 86 1461 85 1600 65" stroke="#58A6FF" stroke-opacity="0.55" />
+</svg>

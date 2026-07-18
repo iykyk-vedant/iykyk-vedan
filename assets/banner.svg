@@ -1,0 +1,57 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vedant Gharat profile banner">
+  <defs>
+    <linearGradient id="bannerGlow" x1="220" y1="40" x2="1300" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F6FEB" />
+      <stop offset="0.5" stop-color="#7C3AED" />
+      <stop offset="1" stop-color="#22D3EE" />
+    </linearGradient>
+    <radialGradient id="softCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(420 160) rotate(22) scale(620 320)">
+      <stop stop-color="#1F6FEB" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="softCoreRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 420) rotate(185) scale(540 280)">
+      <stop stop-color="#7C3AED" stop-opacity="0.23" />
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <filter id="blur" x="0" y="0" width="1600" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" fill="#0D1117" />
+  <rect width="1600" height="520" fill="url(#softCore)" />
+  <rect width="1600" height="520" fill="url(#softCoreRight)" />
+
+  <g opacity="0.2" filter="url(#blur)">
+    <circle cx="210" cy="95" r="120" fill="#1F6FEB" />
+    <circle cx="1380" cy="430" r="140" fill="#22D3EE" />
+  </g>
+
+  <g opacity="0.35" stroke="url(#bannerGlow)">
+    <path d="M0 438C238 346 386 334 628 376C875 419 1056 426 1600 280" stroke-width="2" />
+    <path d="M0 476C273 370 457 357 702 398C941 439 1134 450 1600 326" stroke-width="1.5" />
+    <path d="M0 400C194 316 363 301 589 336C815 370 1069 372 1600 222" stroke-width="1" />
+  </g>
+
+  <g stroke="url(#bannerGlow)" stroke-width="1" opacity="0.25">
+    <path d="M80 72H532" />
+    <path d="M1066 455H1520" />
+  </g>
+
+  <g fill="#C9D1D9" font-family="'Segoe UI', 'Inter', Arial, sans-serif">
+    <text x="110" y="188" font-size="66" font-weight="700">Vedant Gharat</text>
+    <text x="110" y="244" font-size="31" font-weight="500" fill="#8B949E">Backend Engineer • Open Source Contributor • Security Researcher</text>
+    <text x="110" y="314" font-size="24" fill="#58A6FF">Java • Spring Boot • Node.js • Distributed Systems • PostgreSQL • AWS • Docker</text>
+  </g>
+
+  <g transform="translate(1074 104)">
+    <rect x="0" y="0" width="404" height="310" rx="18" fill="#111827" stroke="#30363D" />
+    <rect x="22" y="24" width="360" height="52" rx="10" fill="#0D1117" stroke="#1F6FEB" opacity="0.9" />
+    <text x="38" y="58" fill="#22D3EE" font-family="'Consolas','Fira Code',monospace" font-size="20">$ secure-build --profile vedant</text>
+    <rect x="22" y="96" width="360" height="188" rx="10" fill="#0D1117" stroke="#30363D" />
+    <text x="38" y="132" fill="#58A6FF" font-family="'Consolas','Fira Code',monospace" font-size="18">✔ API architecture</text>
+    <text x="38" y="166" fill="#7C3AED" font-family="'Consolas','Fira Code',monospace" font-size="18">✔ Security-first design</text>
+    <text x="38" y="200" fill="#22D3EE" font-family="'Consolas','Fira Code',monospace" font-size="18">✔ Open source workflow</text>
+    <text x="38" y="234" fill="#C9D1D9" font-family="'Consolas','Fira Code',monospace" font-size="18">✔ Production reliability</text>
+  </g>
+</svg>
