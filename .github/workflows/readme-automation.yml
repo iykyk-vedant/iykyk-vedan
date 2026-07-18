@@ -1,0 +1,36 @@
+name: README Automation
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README timestamp
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'README.md';
+            const content = fs.readFileSync(path, 'utf8');
+            const now = new Date().toISOString().slice(0, 10);
+            const next = content.replace(
+              /<!--START_LAST_UPDATED-->[\s\S]*?<!--END_LAST_UPDATED-->/,
+              `<!--START_LAST_UPDATED-->Last updated: ${now} UTC<!--END_LAST_UPDATED-->`
+            );
+            fs.writeFileSync(path, next);
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): refresh profile timestamp"
+          file_pattern: README.md

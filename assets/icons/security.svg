@@ -1,0 +1,7 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Security icon">
+  <rect width="128" height="128" rx="20" fill="#111827" />
+  <path d="M64 18L98 34V60C98 83 83 104 64 110C45 104 30 83 30 60V34L64 18Z" fill="#0D1117" stroke="#58A6FF" stroke-width="3" />
+  <path d="M50 59C50 51.268 56.268 45 64 45C71.732 45 78 51.268 78 59V67H50V59Z" fill="#7C3AED" fill-opacity="0.25" stroke="#7C3AED" stroke-width="2" />
+  <rect x="48" y="67" width="32" height="24" rx="6" fill="#0D1117" stroke="#22D3EE" stroke-width="2" />
+  <circle cx="64" cy="79" r="4" fill="#22D3EE" />
+</svg>
